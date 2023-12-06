@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "alineacionprueba3"
-annotations:
-  backstage.io/adr-location: docs/adrs  
+  annotations:
+    backstage.io/adr-location: docs/adrs  
 spec:
   type: service
   owner: user:guest
