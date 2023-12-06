@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "alineacionprueba3"
   annotations:
-    backstage.io/adr-location: /docs/adrs
+    backstage.io/adr-location: docs/adrs
 spec:
   type: service
   owner: user:guest
