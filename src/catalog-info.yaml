@@ -4,6 +4,8 @@ metadata:
   name: "alineacionprueba3"
   annotations:
     backstage.io/adr-location: ../docs/adrs
+    backstage.io/techdocs-ref: ../docs/tech-docs
+    
 spec:
   type: service
   owner: user:guest
