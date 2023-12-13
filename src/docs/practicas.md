@@ -10,9 +10,6 @@ Si bien **los sistemas son el nivel básico de encapsulación para entidades rel
 ## Los sistemas
 Son una colección de entidades que cooperan para realizar alguna función. Los sistemas son un concepto útil en el sentido de que nos permiten ignorar los detalles de implementación de una determinada funcionalidad para los consumidores, al tiempo que permiten que el equipo propietario realice los cambios que considere oportunos (lo que lleva a un acoplamiento bajo).
 
-Un sistema, en este sentido, es una colección de recursos y componentes que expone una o varias API públicas. **El principal beneficio de modelar un sistema es que oculta sus recursos y API privadas entre los componentes para cualquier consumidor**. Esto significa que, como propietario, **puede evolucionar la implementación, en términos de componentes y recursos, sin que sus consumidores se den cuenta**. Por lo general, un sistema constará como máximo de un puñado de componentes.
-
-**Por ejemplo**, **un sistema de gestión de listas de reproducción** podría encapsular un servicio de back-end para actualizar las listas de reproducción, un servicio de back-end para consultarlas y una base de datos para almacenarlas. Podría exponer una API RPC, un conjunto de datos de instantáneas diarias y un flujo de eventos de actualizaciones de listas de reproducción.
 
 ## Api
 Las API se implementan mediante componentes y forman **límites entre los componentes**. Pueden definirse mediante un RPC IDL (p. ej., Protobuf, GraphQL, ...), un esquema de datos (p. ej., Avro, TFRecord, ...) o como interfaces de código. En cualquier caso, las API expuestas por los componentes deben estar en un formato legible por máquina conocido para que podamos construir más herramientas y análisis en la parte superior. 
