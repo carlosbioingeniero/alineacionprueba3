@@ -2,6 +2,7 @@ site_name: 'example-docs-carlos'
 
 nav:
   - Home: index.md
+nav:
   - Practicas de SW: practicas.md
 
 plugins:
