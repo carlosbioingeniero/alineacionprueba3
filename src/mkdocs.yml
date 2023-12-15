@@ -2,7 +2,7 @@ site_name: 'example-docs-carlos'
 
 nav:
   - Home: index.md
-  - Practicas de SW: practicas.md
+  - Practicas de SW: practicass.md
 
 plugins:
   - techdocs-core
